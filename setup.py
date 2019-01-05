@@ -12,7 +12,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-wechat-user',
-    version='0.71',
+    version='0.77',
     packages=find_packages(),
     install_requires=requirements,
     include_package_data=True,
@@ -25,7 +25,7 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 2.1',  # replace "X.Y" as appropriate
+        'Framework :: Django :: 2.1',  # replace "X.Y" as appropriatetwine upload dist/* -r pypi
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',  # example license
         'Operating System :: OS Independent',
