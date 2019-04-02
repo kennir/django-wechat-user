@@ -12,7 +12,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-wechat-user',
-    version='0.77',
+    version='0.78',
     packages=find_packages(),
     install_requires=requirements,
     include_package_data=True,
